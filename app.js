@@ -27,12 +27,12 @@ document.addEventListener('DOMContentLoaded', () =>  {
   return randomNumber + excludeArray.sort((a, b) => a - b).reduce((acc, element) => { return randomNumber >= element - acc ? acc + 1 : acc}, 0);
 }
 
-const min = 1;
-const max = 10;
-const excludeArray = [8,2,5];
+const min = 2;
+const max = 4;
+const excludeArray = [3];
 const result = getRandomWithExclude(min, max, excludeArray);
       if (squares[randomNumber].innerHTML == 0) {
-        squares[randomNumber].innerHTML = result
+        (squares[randomNumber].innerHTML = result)
         checkForGameOver()
       } else generate()
     }
