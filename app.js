@@ -22,8 +22,17 @@ document.addEventListener('DOMContentLoaded', () =>  {
     //generate a new number
     function generate() {
       randomNumber = Math.floor(Math.random() * squares.length)
+      const getRandomWithExclude = (min, max, excludeArray) => {
+        const randomNumber = Math.floor(Math.random() * (max - min + 1 - excludeArray.length)) + min;
+        return randomNumber + excludeArray.sort((a, b) => a - b).reduce((acc, element) => { return randomNumber >= element - acc ? acc + 1 : acc}, 0);
+      }
+      
+      const min = 2;
+      const max = 4;
+      const excludeArray = [3];
+      const result = getRandomWithExclude(min, max, excludeArray);
       if (squares[randomNumber].innerHTML == 0) {
-        squares[randomNumber].innerHTML = 2
+       ( squares[randomNumber].innerHTML = result )
         checkForGameOver()
       } else generate()
     }
@@ -211,6 +220,8 @@ document.addEventListener('DOMContentLoaded', () =>  {
     function clear() {
       clearInterval(myTimer)
     }
+
+    
   
   
     //add colours
@@ -234,4 +245,6 @@ document.addEventListener('DOMContentLoaded', () =>  {
   
   var myTimer = setInterval(addColours, 50)
   
+  
   })
+  
