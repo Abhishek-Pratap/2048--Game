@@ -1,5 +1,5 @@
 # 2048-Game
-This is my version of 2048 Game originally developed by Gabriele Cirulli. I have made this game as a Application based problem of Ather Energy coding challenge.
+This is my version of 2048 Game originally developed by Gabriele Cirulli. I have made this game as a Application based problem of Ather Energy coding challenge.</br>
 I have used vanilla JavaScript, HTML and CSS (no canvas) with the help of VSCode to make this game.
 The game has a 4×4 grid and starts with two numbers either 2 or 4 generated at random place.
 User can control using input 1,2,3,4 for left, right, up and down movements respectively.
