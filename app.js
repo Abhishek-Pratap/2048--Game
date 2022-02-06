@@ -45,6 +45,7 @@ const result = getRandomWithExclude(min, max, excludeArray);
           let totalThree = squares[i+2].innerHTML
           let totalFour = squares[i+3].innerHTML
           let row = [parseInt(totalOne), parseInt(totalTwo), parseInt(totalThree), parseInt(totalFour)]
+          console.log(row)
   
           let filteredRow = row.filter(num => num)
           let missing = 4 - filteredRow.length
@@ -67,6 +68,7 @@ const result = getRandomWithExclude(min, max, excludeArray);
           let totalThree = squares[i+2].innerHTML
           let totalFour = squares[i+3].innerHTML
           let row = [parseInt(totalOne), parseInt(totalTwo), parseInt(totalThree), parseInt(totalFour)]
+          console.log(row)
   
           let filteredRow = row.filter(num => num)
           let missing = 4 - filteredRow.length
@@ -89,6 +91,7 @@ const result = getRandomWithExclude(min, max, excludeArray);
         let totalThree = squares[i+(width*2)].innerHTML
         let totalFour = squares[i+(width*3)].innerHTML
         let column = [parseInt(totalOne), parseInt(totalTwo), parseInt(totalThree), parseInt(totalFour)]
+        console.log(column)
   
         let filteredColumn = column.filter(num => num)
         let missing = 4 - filteredColumn.length
@@ -109,6 +112,7 @@ const result = getRandomWithExclude(min, max, excludeArray);
         let totalThree = squares[i+(width*2)].innerHTML
         let totalFour = squares[i+(width*3)].innerHTML
         let column = [parseInt(totalOne), parseInt(totalTwo), parseInt(totalThree), parseInt(totalFour)]
+        console.log(column)
   
         let filteredColumn = column.filter(num => num)
         let missing = 4 - filteredColumn.length
