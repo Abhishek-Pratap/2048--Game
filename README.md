@@ -4,7 +4,7 @@
 - The game has a 4×4 grid and starts with two numbers either 2 or 4 generated at random place.</br>
 
 </br>
-## Working</br>
+### Working</br>
 - User can control using input 1,2,3,4 for left, right, up and down movements respectively.</br>
 - Each time you slide, a new tile will randomly appear in an empty spot on the board. Tiles slide as far as possible in the chosen direction until they are stopped by either another tile or the edge of the grid.</br>
 - If two tiles of the same number collide while moving, they will merge into a tile with the total value of the two tiles that collided. The resulting tile cannot merge with another tile again in the same move.</br>
@@ -38,6 +38,6 @@
 </br>
 
 I got little with struck with random numbers in creating random numbers only either 2 or 4. I take help from stack overflow to get over it.</br>
-** Game Link: https://abhishek-pratap.github.io/2048--Game/index.html **</br>
+Game Link: https://abhishek-pratap.github.io/2048--Game/index.html </br>
 
 
