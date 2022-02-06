@@ -14,30 +14,30 @@ If user gets to 2048 in one of the tiles a 'You WIN' message gets displayed.</br
 If all the tiles get filled up i.e. no zeroes left in any tile then a 'You LOSE, Hit refresh to Play Again' message get Displayed.</br>
 User have to click refresh to restart the game.</br>
 I have added little comments with each function for what they are performing.</br>
-I have used following JavaScript Methods:</br>
-querySelector()</br>
-getElementById()</br>
-createElement()</br>
-appendChild()</br>
-push()</br>
-Math.floor()</br>
-Math.random()</br>
-length</br>
-innerHTML</br>
-parseInt()</br>
-filter()</br>
-Array()</br>
-fill()</br>
-concat()</br>
-keyCode</br>
-addEventListener()</br>
-removeEventListener()</br>
-setTimeout()</br>
-clearInterval()</br>
-setInterval()</br>
+## I have used following JavaScript Methods:</br>
+* querySelector()</br>
+* getElementById()</br>
+* createElement()</br>
+* appendChild()</br>
+* push()</br>
+* Math.floor()</br>
+* Math.random()</br>
+* length</br>
+* innerHTML</br>
+* parseInt()</br>
+* filter()</br>
+* Array()</br>
+* fill()</br>
+* concat()</br>
+* keyCode</br>
+* addEventListener()</br>
+* removeEventListener()</br>
+* setTimeout()</br>
+* clearInterval()</br>
+* setInterval()</br>
 </br>
 
 I got little with struck with random numbers in creating random numbers only either 2 or 4. I take help from stack overflow to get over it.</br>
-Game Link: https://abhishek-pratap.github.io/2048--Game/index.html</br>
+** Game Link: https://abhishek-pratap.github.io/2048--Game/index.html **</br>
 
 
