@@ -39,6 +39,6 @@ Each time you slide, a new tile will randomly appear in an empty spot on the boa
 
 
 </br>
-****Game Link: https://abhishek-pratap.github.io/2048--Game/index.html ****</br>
+**** Game Link: https://abhishek-pratap.github.io/2048--Game/index.html ****</br>
 
 
