@@ -13,8 +13,8 @@ Each time you slide, a new tile will randomly appear in an empty spot on the boa
 - I have also added console.log commands to see the step by step output in console.</br>
 - User have to click refresh to restart the game.</br>
 - I have added little comments with each function for what they are performing.</br>
+- I got little with struck with random numbers in creating random numbers only either 2 or 4. I take help from stack overflow to get over it.</br>
 ## I have used following JavaScript Methods:</br>
-## meta
 * querySelector()</br>
 * getElementById()</br>
 * createElement()</br>
@@ -37,7 +37,7 @@ Each time you slide, a new tile will randomly appear in an empty spot on the boa
 * setInterval()</br>
 
 
-* I got little with struck with random numbers in creating random numbers only either 2 or 4. I take help from stack overflow to get over it.</br>
+
 </br>
 Game Link: https://abhishek-pratap.github.io/2048--Game/index.html </br>
 
