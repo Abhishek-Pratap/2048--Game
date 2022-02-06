@@ -1,7 +1,8 @@
 # 2048-Game
 - This is my version of 2048 Game originally developed by Gabriele Cirulli. I have made this game as a Application based problem of Ather Energy coding challenge.</br>
 - I have used vanilla JavaScript, HTML and CSS (no canvas) with the help of VSCode to make this game.</br>
-- The game has a 4×4 grid and starts with two numbers either 2 or 4 generated at random place.</br>
+- The game has a 4×4 grid and starts with two numbers either 2 or 4 generated at random place.</br> 
+- ## Working
 - User can control using input 1,2,3,4 for left, right, up and down movements respectively.</br>
 - Each time you slide, a new tile will randomly appear in an empty spot on the board. Tiles slide as far as possible in the chosen direction until they are stopped by either another tile or the edge of the grid.</br>
 - If two tiles of the same number collide while moving, they will merge into a tile with the total value of the two tiles that collided. The resulting tile cannot merge with another tile again in the same move.</br>
